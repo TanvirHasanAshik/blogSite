@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    font-family: fantasy;
+}
+header, section{
+    height: 500px;
+    width:80%;
+    margin: auto;
+}
+header{
+    background-image: url("images/01.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+section artical{
+    width: 40%;
+    float: left;
+   
+}
+.artical{
+    padding: 5%;
+}
+.artical img{
+    width: 100%;
+    height: 100%;
+}
+#honor{
+    color: orange;
+}
+#message{
+    width: 40%;
+    margin: 5% 30%;
+    background-image: linear-gradient(45deg, cyan, blue );
+    padding: 20px 0 40px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+#message p,a{
+    color: rgb(79, 248, 234);
+    text-decoration: none;
+}
+.details{
+    padding: 5px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, rgb(97, 66, 66), rgb(233, 182, 173));
+    color: palegreen;
+    font-weight: 700;
+}
+.header{
+    padding: 100px 0 0 100px;
+}
+.first-section{
+    background-image: url("images/03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    margin: auto;
+    text-align: center;
+    padding: 5%  30% 0 30%;
+   
+}
+.info p{
+    font-weight: 600;
+}
+.second-section{
+    background-image: url(images/04.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.worsk{
+    width: 70%;
+    padding: 0 18%;
+    text-align: center;
+}
+.worsk img{
+    width: 205px;
+    height: 200px;
+    padding: 10px;
+    box-shadow: 30px 30px 40px gray;
+}
+.third-section artical{
+    width: 64%;
+}
+.third-section{
+    background-image: url("images/05.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}
